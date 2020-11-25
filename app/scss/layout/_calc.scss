@@ -1,0 +1,388 @@
+.calc {
+  padding: 65px 91px;
+  background-color: $graylightWh;
+  color: $greyBlue;
+  font-weight: normal;
+  margin-bottom: 80px;
+
+  @media (max-width: $lg) {
+    padding: 30px;
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: $md) {
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: $ex_sm) {
+    padding: 30px 10px;
+  }
+
+  .row{
+    @media (max-width: $ex_sm) {
+      margin: 0;
+    }
+
+  }
+
+  &__left {
+    padding-right: 50px;
+    @media (max-width: $ex_sm) {
+      padding: 15px;
+    }
+  }
+
+  &__right {
+    padding-left: 50px;
+    border-left: 1px solid $greyBlue;
+    @media (max-width: 575px) {
+      border-left: inherit;
+      padding: 0 15px 0;
+      margin-top: 22px;
+    }
+
+  }
+
+  &__top {
+    margin-bottom: 40px;
+    @media (max-width: $md) {
+      margin-bottom: 20px;
+    }
+  }
+
+  .heading {
+    margin-bottom: 20px;
+    color: $colorWh;
+    @media (max-width: $md) {
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+  }
+
+
+  &__type {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    color: $greyBlue;
+
+    &.selected {
+      color: $colorWh;
+    }
+
+    @media (max-width: $md) {
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__summ, &__period {
+    border: 1px solid $greyBlue;
+    padding: 10px 16px;
+    position: relative;
+
+    input[type=range] {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      .firefox input[type=range] {
+        bottom: -10px;
+      }
+    }
+
+  }
+
+  &__heading {
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &__value {
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    color: $colorWh;
+  }
+
+  .btn{
+    @media(max-width: $lg){
+      width: 100%;
+    }
+  }
+
+  &__footnote {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  &__period, &__disclaimer {
+    margin-top: 35px;
+  }
+
+  &__disclaimer {
+    font-size: 15px;
+    line-height: 20px;
+
+    @media (max-width: $md) {
+      font-size: 12px;
+      line-height: 15px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: $ex_sm) {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  &__payment {
+    position: relative;
+    @media (max-width: 575px) {
+      padding-top: 22px;
+      border-top: 1px solid #7A84A6;
+    }
+
+    &__title {
+      display: block;
+      font-size: 20px;
+      line-height: 30px;
+      color: $colorWh;
+
+      @media (max-width: $md) {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 10px;
+      }
+
+      &.percent {
+        display: none;
+      }
+    }
+
+    &__value {
+      display: block;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 45px;
+      margin-bottom: 22px;
+      color: $colorWh;
+
+      @media (max-width: $md) {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 12px;
+      }
+
+      &[data-id=calc-percent-label] {
+        display: none;
+      }
+
+    }
+
+    input[type=range] {
+      bottom: -22px;
+    }
+  }
+
+  &__percent {
+    margin-top: 35px;
+  }
+
+  .btn {
+    margin-top: 32px;
+    @media (max-width: $ex_sm) {
+      text-align: center;
+      width: 100%;
+      padding: 18px 40px;
+    }
+  }
+
+}
+
+.desktop {
+  display: block;
+  @media (max-width: $sm) {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+  @media (max-width: $sm) {
+    display: block;
+  }
+}
+
+
+.business .calc {
+  background: #444E58;
+}
+
+.business .calc__heading,
+.business .calc__value,
+.business .calc__payment__title,
+.business .calc__payment__value {
+  color: #fff;
+}
+
+#calc-for-biz, #calc-for-fiz, #calc-for-msb {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+  @media (max-width: $sm) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+// styles for IE
+.is-ie input[type=range] {
+  bottom: -9px;
+  padding-bottom: 0;
+}
+
+input[type=range] {
+  width: 100%;
+  background-color: transparent;
+  -webkit-appearance: none;
+  border: 0; /* for FF */
+  outline: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  background: #d14270;
+  border: 1.1px solid #d14270;
+  border-radius: 1px;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -13px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: 5px solid #d14270;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  transition: .3s;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #d14270;
+}
+
+/* moz */
+
+input[type=range]::-moz-range-track {
+  background: #d14270;
+  border: 1.1px solid #d14270;
+  border-radius: 1px;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 5px solid #d14270;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-focus-outer{
+  border: 0;
+}
+
+/* ms */
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 8.45px 0;
+  color: transparent;
+  width: 100%;
+  height: 11.3px;
+  cursor: pointer;
+}
+input[type=range]::-ms-fill-lower {
+  background: #fff;
+  border: 1.1px solid #d14270;
+  border-radius: 2px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #fff;
+  border: 1.1px solid #d14270;
+  border-radius: 2px;
+}
+input[type=range]::-ms-thumb {
+  width: 23px;
+  height: 23px;
+  background: #fff;
+  border: 2.5px solid #d14270;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 0;
+  /*Needed to keep the Edge thumb centred*/
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #d14270;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #d14270;
+}
+
+@supports (-ms-ime-align:auto) {
+  input[type=range] {
+    margin: 0;
+  }
+}
+
+
+.firefox .calc__summ input[type="range"],
+.firefox .calc__period input[type="range"]{
+  bottom: -10px;
+}
+/* IE */
+input[type=range]::-ms-track {
+  height: 10px;
+  background: transparent;
+  border-color: transparent;
+  border-width: 14px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #d14270;
+}
+input[type=range]::-ms-fill-upper {
+  background: #d14270;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #d14270;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #d14270;
+}
+.is-ie input[type=range] {
+  position: absolute;
+  bottom: -20px;
+}

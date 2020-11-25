@@ -1,0 +1,53 @@
+.pagination{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  .pg{
+    height: 30px;
+    min-width: 30px;
+    width: fit-content;
+    padding: 0 10px;
+    background-color: $pink;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    @media(max-width: $md){
+      min-width: 25px;
+      height: 25px;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+    svg{
+      width: 15px;
+      height: 15px;
+      path{
+        fill: $white
+      }
+    }
+    &.currient{
+      background-color: $greyBlue;
+      color: $graylightWh;
+      &:hover{
+        opacity: 1;
+      }
+    }
+    &.first{
+      margin-right: 15px;
+      @media(max-width: $md){
+        display: none;
+      }
+    }
+    &.last{
+      margin-left: 10px;
+      @media(max-width: $md){
+        display: none;
+      }
+    }
+  }
+}

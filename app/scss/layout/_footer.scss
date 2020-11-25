@@ -1,0 +1,237 @@
+.footer {
+  color: $colorWh;
+  span {
+    display: block;
+  }
+
+  a {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &__menu {
+    font-size: 20px;
+    line-height: 30px;
+
+    @media (max-width: $md) {
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    @media (max-width: 767px) {
+      order: 2;
+    }
+
+    span {
+      margin-bottom: 20px;
+      @media (max-width: $breakpoint-tablet-portrait) {
+        margin-bottom: 15px;
+      }
+    }
+
+    .heavy {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 35px;
+
+      @media (max-width: $breakpoint-tablet) {
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      @media (max-width: $breakpoint-tablet-portrait) {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+
+  }
+
+  .carbon_logo_moby_wrapper {
+    width: 100%;
+    height: 90px;
+    margin: 15px 0 20px;
+    text-align: center;
+    display: none;
+    position: relative;
+
+    @media (max-width: $breakpoint-tablet-portrait) {
+      display: block;
+    }
+
+    .carbon_logo_moby {
+      width: 150px;
+      height: auto;
+      max-width: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: calc(50% - 75px);
+    }
+
+  }
+
+  .contacts {
+    text-align: right;
+
+    @media (max-width: $md) {
+      order: 1;
+      text-align: left;
+    }
+
+    .tel {
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 45px;
+      margin-bottom: 8px;
+
+      @media (max-width: $breakpoint-tablet) {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 15px;
+      }
+
+      @media (max-width: $breakpoint-mobile) {
+        margin-bottom: 0;
+      }
+    }
+
+    .bottom_wrapper {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      padding-top: 20px;
+
+      @media (max-width: $breakpoint-tablet) {
+        flex-wrap: wrap;
+      }
+
+      .left_part {
+        width: 50%;
+        height: auto;
+        text-align: right;
+
+        @media (max-width: $breakpoint-tablet) {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        .time {
+          font-size: 15px;
+          line-height: 20px;
+          color: $greyBlue;
+          margin-bottom: 21px;
+
+          @media (max-width: $breakpoint-tablet-portrait) {
+            font-size: 12px;
+            line-height: 15px;
+          }
+
+          @media (max-width: $breakpoint-mobile) {
+            margin-bottom: 30px;
+          }
+
+          a {
+            &:focus {
+              outline: transparent;
+            }
+          }
+
+          img {
+            margin-left: 21px;
+          }
+        }
+
+      }
+
+      .right_part {
+        width: 48%;
+        height: auto;
+        text-align: right;
+
+        @media (max-width: $breakpoint-tablet) {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+
+        @media (max-width: $breakpoint-tablet-portrait) {
+          display: none;
+        }
+
+        img {
+          width: 150px;
+          height: auto;
+        }
+      }
+
+    }
+
+  }
+
+  &__social_fb {
+    @media (max-width: 767px) {
+      position: absolute;
+      right: 50px;
+      top: - 5px;
+      transform: scale(0.7);
+    }
+  }
+
+  &__social_vk {
+    @media (max-width: 767px) {
+      position: absolute;
+      right: 0;
+      top: -5px;
+      transform: scale(0.7);
+    }
+  }
+
+  &__horisontalMenu {
+    margin: 40px 0;
+
+    @media (max-width: $breakpoint-tablet-portrait) {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      margin-right: 50px;
+      @media (max-width: 991px) {
+        margin-right: 30px;
+      }
+    }
+
+    a {
+      @media (max-width: $breakpoint-tablet-portrait) {
+        font-size: 15px;
+        line-height: 25px;
+      }
+    }
+
+  }
+
+  .copyright {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: - 0.01 em;
+    color: $greyBlue;
+
+    @media (max-width: $breakpoint-tablet) {
+      max-width: 520px;
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+      margin-top: 30px;
+      font-size: 12px;
+      line-height: 15px;
+      max-width: 96%;
+    }
+  }
+
+}
+

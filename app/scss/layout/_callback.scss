@@ -1,0 +1,23 @@
+.callback{
+  width: 100%;
+  height: auto;
+  padding: 0 0 90px;
+
+
+
+  .callback_wrapper{
+    width: 100%;
+    height: auto;
+    position: relative;
+    .callback_list{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-bottom: 15px;
+    }
+
+  }
+
+}

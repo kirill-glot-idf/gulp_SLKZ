@@ -1,0 +1,94 @@
+input, button {
+  &.btn:disabled {
+    cursor: default;
+    background-color: $graylightWh;
+    color: $graylightBl;
+  }
+}
+
+.btn {
+  width: 245px;
+  height: 60px;
+  background: $pink;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  color: $white;
+  cursor: pointer;
+  @media(max-width: $lg) {
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+  }
+  &:hover {
+    color: $white;
+    opacity: .9;
+  }
+
+  &.disabled {
+    cursor: default;
+    background-color: $graylightWh;
+    color: $graylightBl;
+  }
+
+  &.to_write{
+    width: 132px;
+    height: 40px;
+  }
+}
+
+.btn_login {
+  width: 120px;
+  height: 40px;
+  border: 1px solid $colorWh;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: $colorWh;
+  &:hover {
+    color: $colorWh;
+  }
+}
+
+.back_button{
+  font-size: 15px;
+  line-height: 35px;
+  letter-spacing: -0.01em;
+  color: $greyBlue;
+  margin-bottom: 5px;
+  @media(max-width: $lg){
+    font-size: 25px;
+  }
+  @media(max-width: $md){
+    font-size: 20px;
+  }
+}
+
+
+.bg_gray {
+  .btn {
+    &.disabled {
+      border: 1px solid $white;
+    }
+  }
+  button.btn:disabled {
+    border: 1px solid $white;
+  }
+}
+
+
+body.dark_theme {
+  .btn_login {
+    border: 1px solid $white;
+    color: $white;
+  }
+}

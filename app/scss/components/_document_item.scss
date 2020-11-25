@@ -1,0 +1,39 @@
+.document_item{
+  width: 49%;
+  height: auto;
+  margin-right: 2%;
+  margin-bottom: 25px;
+  position: relative;
+  padding-left: 50px;
+  @media(max-width: $md){
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  &:nth-child(2n){
+    margin-right: 0;
+  }
+
+  .type{
+    width: 40px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid $pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: $pink;
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+  }
+
+  .doc_title{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+  }
+
+}
