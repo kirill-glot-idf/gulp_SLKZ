@@ -2,152 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a03ae695-2638-493d-90b1-1fa46c46622f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/slkz_new.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/archive_otzyvy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/app.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/documents.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Black/Inter-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Black/Inter-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Bold/Inter-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Bold/Inter-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-ExtraBold/Inter-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-ExtraBold/Inter-ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-ExtraLight/Inter-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-ExtraLight/Inter-ExtraLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Light/Inter-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Light/Inter-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Medium/Inter-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Medium/Inter-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Regular/Inter-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Regular/Inter-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-SemiBold/Inter-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-SemiBold/Inter-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Thin/Inter-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/Inter-Thin/Inter-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/ubuntu/ubuntu-v15-latin_cyrillic-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/ubuntu/ubuntu-v15-latin_cyrillic-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/ubuntu/ubuntu-v15-latin_cyrillic-500.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/ubuntu/ubuntu-v15-latin_cyrillic-500.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/ubuntu/ubuntu-v15-latin_cyrillic-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/ubuntu/ubuntu-v15-latin_cyrillic-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/ubuntu/ubuntu-v15-latin_cyrillic-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/ubuntu/ubuntu-v15-latin_cyrillic-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/carbon_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/cards.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/favicon/apple-touch-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/favicon/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/favicon/ogimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/i/sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/i/symbol/sprite.symbol.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/main_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/notice-warning.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/percent.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/slide_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/Phone-24px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/Viber.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/account-circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/cancel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/clip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/clock-contacts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/del-prod.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/load-more-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/location-exit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/mail-contacts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/map-contacts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/mob-menu-arrow-to-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/mts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/orders-check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/pagination-arrow-toleft.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/pagination-arrow-toright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/phone-contacts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/phones-toggler-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/reorder.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/see-more-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/slider-arrow-to-right-sm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/slider-arrow-to-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/table-open-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/user-mob-ico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/svg-icons/w-cat-arrow-toright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/callback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/callback.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/contacts_popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/contacts_popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/lang_switcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/lang_switcher.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/sliders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/base/_default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/base/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/base/_sprite.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/base/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_callback_item.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_contacts_popup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_document_item.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_lang_switcher.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_notice_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_payment_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_show_more_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_utp.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/_calc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/_callback.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/_contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/_documents.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/_main_section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/utils/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/utils/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/utils/_sprite-template.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/utils/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/utils/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/vendors/_libs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/vendors/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/_archive_otzyvy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/_contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/_documents.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_breadcrumbs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_calc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_notice_banner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_payment_banner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_show_more_slider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_utp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/sections/_contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/sections/_documents.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/sections/_main_section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="237c636a-9dc8-4e0b-a5d6-b00d54357cb8" />
+  </component>
   <component name="ProjectId" id="1kjUZgtVu3tGeFoGF2UB3NHaW4F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -181,6 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -215,8 +74,16 @@
       <option name="presentableId" value="Default" />
       <updated>1606213551145</updated>
       <workItem from="1606213552411" duration="22509000" />
-      <workItem from="1606288490952" duration="9498000" />
+      <workItem from="1606288490952" duration="11370000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавлена служебная папка в игнор">
+      <created>1606299632026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606299632026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавлена служебная папка в игнор" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена служебная папка в игнор" />
   </component>
 </project>
