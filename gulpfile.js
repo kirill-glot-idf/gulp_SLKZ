@@ -5,66 +5,18 @@ var gulp = require("gulp"),
   concat = require("gulp-concat"),
   uglify = require("gulp-uglifyjs"),
   babel = require("gulp-babel"),
-  // cssnano      = require('gulp-cssnano'),
   csso = require("gulp-csso");
   minify = require('gulp-minify');
-
-(rename = require("gulp-rename")),
-  (del = require("del")),
-  (imagemin = require("gulp-imagemin")),
-  (pngquant = require("imagemin-pngquant")),
-  (cache = require("gulp-cache")),
-  (gsmq = require("gulp-group-css-media-queries")),
-  (injectPartials = require("gulp-inject-partials")),
-  (autoprefixer = require("gulp-autoprefixer")),
-  (svgSprite = require("gulp-svg-sprite")),
-  (svgmin = require("gulp-svgmin")),
-  (cheerio = require("gulp-cheerio")),
-  (replace = require("gulp-replace"));
-
-gulp.task("sprite", function () {
-  return gulp
-      .src("app/img/svg-icons/*.svg")
-      // minify svg
-      .pipe(
-        svgmin({
-          js2svg: {
-            pretty: true,
-          },
-        })
-      )
-      // remove all fill and style declarations in out shapes
-      .pipe(
-        cheerio({
-          run: function ($) {
-            $("[fill]").removeAttr("fill");
-            $("[stroke]").removeAttr("stroke");
-            $("[style]").removeAttr("style");
-          },
-          parserOptions: { xmlMode: true },
-        })
-      )
-      // cheerio plugin create unnecessary string '&gt;', so replace it.
-      .pipe(replace("&gt;", ">"))
-      // build svg sprite
-      .pipe(
-        svgSprite({
-          mode: {
-            symbol: {
-              sprite: "../sprite.svg",
-              render: {
-                scss: {
-                  dest: "../../../scss/base/_sprite.scss",
-                  template: "app/scss/utils/_sprite-template.scss",
-                },
-              },
-              example: true,
-            },
-          },
-        })
-      )
-      .pipe(gulp.dest("app/img/i/"));
-});
+  rename = require("gulp-rename"),
+  del = require("del"),
+  imagemin = require("gulp-imagemin"),
+  pngquant = require("imagemin-pngquant"),
+  cache = require("gulp-cache"),
+  gsmq = require("gulp-group-css-media-queries"),
+  injectPartials = require("gulp-inject-partials"),
+  autoprefixer = require("gulp-autoprefixer"),
+  include = require('gulp-include'),
+  replace = require("gulp-replace");
 
 gulp.task("index", function () {
   return gulp
@@ -96,23 +48,28 @@ gulp.task("sass", function () {
 });
 
 
+gulp.task("scripts", function () {
+  return gulp
+    .src([
+      "app/js/app.js"
+    ])
+    .pipe(include())
+    .pipe(
+      babel({
+        presets: ["@babel/env"],
+      })
+    )
+    .pipe(uglify())
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(gulp.dest("app/js"));
+});
 
 gulp.task("scriptsConcat", function () {
   return gulp
     .src([
       /** libs */
       // 'node_modules/jquery/dist/jquery.min.js',
-      // 'node_modules/aos/dist/aos.js',
-      "node_modules/swiper/swiper-bundle.min.js",
-      // "node_modules/glightbox/dist/js/glightbox.min.js",
-      // "node_modules/imask/dist/imask.js",
-      // "node_modules/slim-select/dist/slimselect.min.js",
-      "node_modules/micromodal/dist/micromodal.min.js",
-      // "node_modules/minibarjs/dist/minibar.min.js",
-      "app/js/callback.js",
-      "app/js/contacts_popup.js",
-      "app/js/lang_switcher.js",
-      "app/js/sliders.js",
+      // "node_modules/swiper/swiper-bundle.min.js",
 
       "app/js/app.min.js",
     ])
@@ -170,29 +127,12 @@ gulp.task("clear", function (callback) {
 gulp.task("checkupdate", function () {
   gulp.watch("app/scss/**/*.scss", gulp.parallel("sass"));
   gulp.watch("app/view/**/*.html", gulp.parallel("index"));
-  gulp.watch(["app/js/app.js"], gulp.series("scripts", "scriptsConcat"));
-  gulp.watch(["app/img/svg-icons/*.svg"], gulp.parallel("sprite"));
+  gulp.watch(["app/js/*.js", "!app/js/*.min.js"], gulp.series("scripts", "scriptsConcat"));
 });
 
 gulp.task('html_code', function() {
   return gulp.src('app/*.html')
     .pipe(browserSync.reload({ stream: true }))
-});
-
-
-gulp.task("scripts", function () {
-  return gulp
-    .src([
-      "app/js/app.js"
-    ])
-    .pipe(
-      babel({
-        presets: ["@babel/env"],
-      })
-    )
-    .pipe(uglify())
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(gulp.dest("app/js"));
 });
 
 gulp.task(
@@ -203,14 +143,10 @@ gulp.task(
     "scripts",
     "browser-sync",
     "index",
-    "sprite",
     "checkupdate",
     "html_code"
   )
 );
-
-
-
 
 gulp.task(
   "build",
@@ -220,7 +156,6 @@ gulp.task(
       "index",
       "img",
       "sass",
-      "sprite",
       gulp.series("scripts", "scriptsConcat")
     ),
     "prebuild"
