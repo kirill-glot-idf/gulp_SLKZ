@@ -70,7 +70,7 @@ gulp.task("scriptsConcat", function () {
       /** libs */
       // 'node_modules/jquery/dist/jquery.min.js',
       // "node_modules/swiper/swiper-bundle.min.js",
-
+      "app/libs/fancybox/jquery.fancybox.min.js",
       "app/js/app.min.js",
     ])
     .pipe(concat("app.min.js"))

@@ -6,6 +6,12 @@
     width: 100%;
     height: auto;
     margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    @media(max-width: $md){
+      font-size: 15px;
+      line-height: 25px;
+    }
     &.fs_20{
       @media(max-width: $md){
         font-size: 20px;
