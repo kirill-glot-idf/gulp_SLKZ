@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a03ae695-2638-493d-90b1-1fa46c46622f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="237c636a-9dc8-4e0b-a5d6-b00d54357cb8" />
+  </component>
   <component name="ProjectId" id="1kjUZgtVu3tGeFoGF2UB3NHaW4F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -37,7 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -72,8 +74,16 @@
       <option name="presentableId" value="Default" />
       <updated>1606213551145</updated>
       <workItem from="1606213552411" duration="22509000" />
-      <workItem from="1606288490952" duration="10348000" />
+      <workItem from="1606288490952" duration="11370000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавлена служебная папка в игнор">
+      <created>1606299632026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606299632026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавлена служебная папка в игнор" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена служебная папка в игнор" />
   </component>
 </project>
