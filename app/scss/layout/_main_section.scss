@@ -153,25 +153,21 @@
     width: 100%;
     height: auto;
     position: absolute;
-    left: 0;
+    padding-left: 90px;
     bottom: 40px;
     z-index: 2;
+    @media(max-width: $ex_lg) {
+      padding-left: 30px;
+    }
     @media(max-width: $md) {
       bottom: 12px;
+      padding-left: 15px;
     }
 
 
     .dots_wrapper {
       width: 100%;
       height: auto;
-      left: -44%;
-      margin-left: 75px;
-      @media(max-width: $ex_lg) {
-        margin-left: 45px;
-      }
-      @media(max-width: $ex_sm) {
-        margin-left: 22px;
-      }
       .dot_item {
         border-radius: 5px;
         overflow: hidden;
@@ -193,6 +189,9 @@
           background-size: cover;
           background-repeat: no-repeat;
           filter: grayscale(1);
+          @media(max-width: $md) {
+            height: 80px;
+          }
           @media(max-width: $sm) {
             height: 44px;
           }

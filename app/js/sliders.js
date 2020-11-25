@@ -1,11 +1,14 @@
 if (document.getElementById('main_section_slider_wrapper')) {
-  var slidesPerView = 7;
+  var slidesPerView = 5.7;
 
   if (document.body.clientWidth < 1200
     && document.body.clientWidth > 991) {
     slidesPerView = 6;
-  } else if (document.body.clientWidth < 992) {
-    slidesPerView = 5;
+  } else if (document.body.clientWidth < 992
+    && document.body.clientWidth > 390) {
+    slidesPerView = 5.5;
+  }else if (document.body.clientWidth < 391){
+    slidesPerView = 4.5;
   }
 
 
@@ -14,7 +17,7 @@ if (document.getElementById('main_section_slider_wrapper')) {
   var main_section_pagination = new Swiper('.main_section_pagination', {
     slidesPerView: slidesPerView,
     spaceBetween: 25,
-    centeredSlides: true,
+    centeredSlides: false,
     freeMode: true,
     loop: false,
     navigation: {

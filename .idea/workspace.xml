@@ -1,40 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a03ae695-2638-493d-90b1-1fa46c46622f" name="Default Changelist" comment="Commit 2">
-      <change afterPath="$PROJECT_DIR$/app/js/mobile_menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/fancybox/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/fancybox/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_content_block_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/_show_more_slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/_content_block_slider_wrapper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/_show_more_slider_wrapper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/_about_project.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/partials/_content_block_slider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/sections/_content_block_slider_wrapper.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/view/sections/_show_more_slider_wrapper.html" afterDir="false" />
+    <list default="true" id="0e9d1ac7-e116-41db-a1ed-108d12cc9698" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about_project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/_contacts_popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_contacts_popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/_content_block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_content_block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/layout/_show_more_slider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/layout/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/vendors/_libs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/vendors/_libs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/about_project.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/partials/_show_more_slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/partials/_show_more_slider.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/partials/_utp.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/sections/_utp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/sliders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/layout/_main_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/_main_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/sections/_utp.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/sections/_utp.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,46 +21,15 @@
       <executable />
     </execution>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="SCSS File" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="237c636a-9dc8-4e0b-a5d6-b00d54357cb8" />
-  </component>
-  <component name="ProjectId" id="1kjUZgtVu3tGeFoGF2UB3NHaW4F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/scss/components" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\work\layout\slkz_new\app\scss\components" />
-      <recent name="E:\work\layout\slkz_new\app\scss\layout" />
-      <recent name="E:\work\layout\slkz_new\app" />
-      <recent name="E:\work\layout\slkz_new\app\scss\utils" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\work\layout\slkz_new\app\view\sections" />
-      <recent name="E:\work\layout\slkz_new\app\scss\base" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,41 +47,15 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a03ae695-2638-493d-90b1-1fa46c46622f" name="Default Changelist" comment="" />
-      <created>1606213551145</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1606213551145</updated>
-      <workItem from="1606213552411" duration="22509000" />
-      <workItem from="1606288490952" duration="22944000" />
-    </task>
-    <task id="LOCAL-00001" summary="Добавлена служебная папка в игнор">
-      <created>1606299632026</created>
+    <task id="LOCAL-00001" summary="Commit 3">
+      <created>1606316171265</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1606299632026</updated>
+      <updated>1606316171265</updated>
     </task>
-    <task id="LOCAL-00002" summary="Добавлена служебная папка в игнор 2">
-      <created>1606301009478</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1606301009478</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Commit 2">
-      <created>1606305336290</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1606305336290</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -148,11 +67,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавлена служебная папка в игнор" />
-    <MESSAGE value="Добавлена служебная папка в игнор 2" />
-    <MESSAGE value="Commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
   </component>
 </project>
