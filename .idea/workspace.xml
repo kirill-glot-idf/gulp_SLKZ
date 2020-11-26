@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9d1ac7-e116-41db-a1ed-108d12cc9698" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/scss/layout/_procedure_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/view/_creditny_product_main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about_project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/archive_otzyvy.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/archive_otzyvy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/app.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/documents.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/documents.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/sliders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/layout/_main_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/_main_section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view/sections/_utp.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/sections/_utp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/_callback_item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/_callback_item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/layout/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/partials/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/partials/_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view/partials/_show_more_slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view/partials/_show_more_slider.html" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,15 +29,28 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="ProjectId" id="1kn1QiCXTsgMlsXYnMCv13PZPBg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,18 +75,44 @@
       <option name="project" value="LOCAL" />
       <updated>1606316171265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Исправлен слайдер на главной">
+      <created>1606318175127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606318175127</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e9d1ac7-e116-41db-a1ed-108d12cc9698" name="Default Changelist" comment="" />
+      <created>1606321527861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606321527861</updated>
+      <workItem from="1606321531873" duration="1482000" />
+      <workItem from="1606377809514" duration="3134000" />
+      <workItem from="1606403495980" duration="8185000" />
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Исправлен слайдер на главной" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлен слайдер на главной" />
   </component>
 </project>

@@ -66,4 +66,33 @@
     }
   }
 
+  .double_block{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .double_block_item{
+      width: 48%;
+      height: auto;
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: -0.01em;
+      .db_title{
+        width: 100%;
+        height: auto;
+      }
+
+      .db_content{
+        width: 100%;
+        height: auto;
+        color: $greyBlue;
+      }
+    }
+
+
+  }
+
 }

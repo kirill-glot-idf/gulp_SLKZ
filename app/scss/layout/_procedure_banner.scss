@@ -1,0 +1,48 @@
+.procedure_banner {
+  width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+  
+  .container {
+    background-color: $graylightWh;
+    padding: 65px 160px;
+
+    .procedure_banner_title {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .procedure_banner_subtitle {
+      width: 100%;
+      height: auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: -0.01em;
+      margin-bottom: 50px;
+    }
+
+    .procedure_banner__list {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .procedure_banner__list_item {
+
+        .image_block {
+          svg {
+
+          }
+        }
+
+        .title {
+        }
+
+      }
+
+    }
+  }
+}
